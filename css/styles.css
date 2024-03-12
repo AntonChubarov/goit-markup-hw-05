@@ -581,6 +581,7 @@ header {
   width: 100%;
   background-color: var(--dairy);
   border-radius: 4px;
+  padding: 72px 24px;
 }
 
 .modal-close-button {
@@ -621,6 +622,32 @@ header {
 .modal-close-button:hover > .modal-close-button-cross,
 .modal-close-button:focus > .modal-close-button-cross {
   fill: var(--white-common);
+}
+
+.leave-contacts-form-text {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.leave-contacts-form > label {
+  display: block;
+}
+
+.leave-contacts-form > label > input {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.leave-contacts-form > label > textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.leave-contacts-form-submit-button {
+  display: block;
 }
 
 /*endregion*/
@@ -688,3 +715,15 @@ footer > .container {
   height: 24px;
   fill: var(--cloud);
 }
+
+.subscribe-form-container {
+  margin-left: 80px;
+}
+
+.subscribe-form-name {
+  color: var(--white-text);
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+

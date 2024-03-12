@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
   <head>
@@ -369,7 +369,7 @@
               </a>
             </li>
             <li class="customer-list-item">
-              <a  href="#" target="_blank">
+              <a href="#" target="_blank">
                 <svg class="customer-icon" width="104" height="56">
                   <use
                     href="./images/icons/icons-defs.svg#icon-company-book"
@@ -466,11 +466,46 @@
             </li>
           </ul>
         </div>
+
+        <div class="subscribe-form-container">
+          <p class="subscribe-form-name">Subsribe</p>
+          <form action="#" name="subscribe_form" autocomplete="off">
+            <input type="email" name="email" placeholder="E-mail" />
+            <button type="submit" class="subscription-submit-button">
+              <p>Subscribe</p>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
+        <p class="leave-contacts-form-text">Leave your contacts and we will call you back</p>
+        <form class="leave-contacts-form" name="leave_contacts_form">
+          <label>
+            Name
+            <input type="text" name="name"/>
+          </label>
+          <label>
+            Phone
+            <input type="tel" name="phone"/>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email"/>
+          </label>
+          <label>
+            Comment
+            <textarea name="" id="" cols="30" rows="10" placeholder="Text input"></textarea>
+          </label>
+          <label>
+            <input type="checkbox" name="" value="true" checked/>
+            <span>I accept the terms and conditions of the Privacy Policy</span>
+          </label>
+          <button type="submit" class="leave-contacts-form-submit-button">Send</button>
+        </form>
+
         <button class="modal-close-button" data-modal-close>
           <svg class="modal-close-button-cross" width="8" height="8">
             <use href="./images/icons/icons-defs.svg#cross"></use>
