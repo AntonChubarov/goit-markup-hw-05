@@ -581,7 +581,7 @@ header {
   width: 100%;
   background-color: var(--dairy);
   border-radius: 4px;
-  padding: 72px 24px;
+  padding: 72px 24px 24px;
 }
 
 .modal-close-button {
@@ -632,10 +632,6 @@ header {
 
 .leave-contacts-form-text-input-label {
   display: block;
-  width: 100%;
-}
-
-.leave-contacts-form-input-name {
   color: var(--light-slate);
   font-size: 12px;
   line-height: 1.167;
@@ -719,7 +715,7 @@ header {
   letter-spacing: 0.04em;
 }
 
-.leave-contacts-form-checkbox-label {
+.leave-contacts-form-checkbox-input-wrapper {
   margin-bottom: 24px;
   display: flex;
   align-items: center;
@@ -754,6 +750,7 @@ header {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   fill: transparent;
+  pointer-events: none;
 
   transition-property: fill;
   transition-duration: 250ms;
@@ -764,7 +761,7 @@ header {
   fill: var(--white-common);
 }
 
-.leave-contacts-form-checkbox-text {
+.leave-contacts-form-checkbox-label {
   color: var(--light-slate);
   font-size: 12px;
   line-height: 1.167;
